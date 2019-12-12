@@ -1,0 +1,1563 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 42 files
+Detected 190 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: ./core\Complex.py
+--------------------------------------------------------------------------------
+./core\Complex.py:86:30: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\Complex.py:88:29: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\Complex.py:90:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\Complex.py:92:31: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\Complex.py:235:21: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Complex.py:236:21: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Complex.py:238:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Complex.py:239:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Complex.py:241:21: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Complex.py:242:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\ConvE.py
+--------------------------------------------------------------------------------
+./core\ConvE.py:89:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ConvE.py:91:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ConvE.py:94:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ConvE.py:147:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:148:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:149:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:183:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:184:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:213:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:214:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvE.py:215:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\ConvKB.py
+--------------------------------------------------------------------------------
+./core\ConvKB.py:90:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ConvKB.py:92:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ConvKB.py:95:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ConvKB.py:144:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:145:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:146:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:178:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:179:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:180:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:210:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:211:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ConvKB.py:212:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\DistMult.py
+--------------------------------------------------------------------------------
+./core\DistMult.py:84:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\DistMult.py:86:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\DistMult.py:142:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\DistMult.py:143:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\DistMult.py:144:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\HoLE.py
+--------------------------------------------------------------------------------
+./core\HoLE.py:117:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\HoLE.py:120:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\HoLE.py:172:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\HoLE.py:173:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\HoLE.py:174:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\KG2E.py
+--------------------------------------------------------------------------------
+./core\KG2E.py:102:37: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\KG2E.py:104:37: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\KG2E.py:108:40: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\KG2E.py:110:40: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\KG2E.py:245:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:246:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:247:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:267:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:268:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:269:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:271:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:272:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\KG2E.py:273:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\NTN.py
+--------------------------------------------------------------------------------
+./core\NTN.py:97:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\NTN.py:99:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\NTN.py:103:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\NTN.py:105:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\NTN.py:107:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\NTN.py:109:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\NTN.py:210:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\NTN.py:211:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\NTN.py:212:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\ProjE_pointwise.py
+--------------------------------------------------------------------------------
+./core\ProjE_pointwise.py:88:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:91:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:94:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:96:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:98:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:101:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:103:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:105:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\ProjE_pointwise.py:116:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:117:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:119:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:120:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:180:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:181:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:203:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:204:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\ProjE_pointwise.py:205:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\Rescal.py
+--------------------------------------------------------------------------------
+./core\Rescal.py:92:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\Rescal.py:97:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\Rescal.py:128:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:129:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:130:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:131:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:132:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:133:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:180:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:181:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\Rescal.py:182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\RotatE.py
+--------------------------------------------------------------------------------
+./core\RotatE.py:86:39: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\RotatE.py:88:39: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\RotatE.py:90:39: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\RotatE.py:188:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\RotatE.py:189:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\RotatE.py:190:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\RotatE.py:191:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\RotatE.py:192:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\SLM.py
+--------------------------------------------------------------------------------
+./core\SLM.py:88:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SLM.py:90:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SLM.py:94:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SLM.py:96:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SLM.py:175:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\SLM.py:176:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\SLM.py:177:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\SME.py
+--------------------------------------------------------------------------------
+./core\SME.py:207:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:209:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:213:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:215:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:217:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:219:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:221:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:223:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\SME.py:271:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\SME.py:272:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\SME.py:273:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\TransD.py
+--------------------------------------------------------------------------------
+./core\TransD.py:93:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransD.py:96:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransD.py:99:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransD.py:102:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransD.py:189:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransD.py:190:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransD.py:191:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransD.py:206:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransD.py:207:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransD.py:208:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\TransE.py
+--------------------------------------------------------------------------------
+./core\TransE.py:91:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransE.py:94:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransE.py:144:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransE.py:145:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransE.py:166:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransE.py:167:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransE.py:205:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransE.py:206:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransE.py:207:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\TransG.py
+--------------------------------------------------------------------------------
+./core\TransG.py:98:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransG.py:102:38: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransG.py:105:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransG.py:108:36: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransG.py:121:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:122:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:123:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:124:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:133:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:134:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:135:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:136:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:278:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:279:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:281:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:282:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:323:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:324:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransG.py:325:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\TransH.py
+--------------------------------------------------------------------------------
+./core\TransH.py:92:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransH.py:95:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransH.py:98:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransH.py:152:34: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransH.py:186:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransH.py:187:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransH.py:188:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\TransM.py
+--------------------------------------------------------------------------------
+./core\TransM.py:87:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransM.py:90:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransM.py:112:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransM.py:113:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransM.py:168:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransM.py:169:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransM.py:170:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\TransR.py
+--------------------------------------------------------------------------------
+./core\TransR.py:95:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransR.py:98:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TransR.py:187:26: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransR.py:203:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransR.py:204:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransR.py:205:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TransR.py:206:28: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./core\TuckER.py
+--------------------------------------------------------------------------------
+./core\TuckER.py:92:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TuckER.py:94:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TuckER.py:97:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+./core\TuckER.py:123:13: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TuckER.py:124:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TuckER.py:181:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TuckER.py:182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+./core\TuckER.py:183:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+File: ./utils\trainer.py
+--------------------------------------------------------------------------------
+./utils\trainer.py:272:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+./utils\trainer.py:329:34: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+================================================================================
+Detailed log follows:
+
+================================================================================
+================================================================================
+Input tree: './'
+================================================================================
+--------------------------------------------------------------------------------
+Processing file './_version.py'
+ outputting to './_version.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './__init__.py'
+ outputting to './__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './config\\config.py'
+ outputting to './config\\config.py'
+--------------------------------------------------------------------------------
+
+336:26: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './config\\global_config.py'
+ outputting to './config\\global_config.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './config\\hyperparams.py'
+ outputting to './config\\hyperparams.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './config\\__init__.py'
+ outputting to './config\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\Complex.py'
+ outputting to './core\\Complex.py'
+--------------------------------------------------------------------------------
+
+62:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+63:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+85:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+85:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+86:30: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+86:30: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+87:58: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+88:29: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+88:29: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+89:57: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+90:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+90:32: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+91:60: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+92:31: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+92:31: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+93:59: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+112:33: INFO: Added keywords to args of function 'tf.transpose'
+114:31: INFO: Added keywords to args of function 'tf.transpose'
+116:31: INFO: Added keywords to args of function 'tf.transpose'
+118:31: INFO: Added keywords to args of function 'tf.transpose'
+124:33: INFO: Added keywords to args of function 'tf.transpose'
+126:31: INFO: Added keywords to args of function 'tf.transpose'
+128:31: INFO: Added keywords to args of function 'tf.transpose'
+130:31: INFO: Added keywords to args of function 'tf.transpose'
+138:21: INFO: Added keywords to args of function 'tf.reduce_mean'
+139:21: INFO: Added keywords to args of function 'tf.reduce_mean'
+191:33: INFO: Added keywords to args of function 'tf.transpose'
+193:31: INFO: Added keywords to args of function 'tf.transpose'
+195:31: INFO: Added keywords to args of function 'tf.transpose'
+197:31: INFO: Added keywords to args of function 'tf.transpose'
+203:33: INFO: Added keywords to args of function 'tf.transpose'
+205:31: INFO: Added keywords to args of function 'tf.transpose'
+207:31: INFO: Added keywords to args of function 'tf.transpose'
+209:31: INFO: Added keywords to args of function 'tf.transpose'
+235:21: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+235:21: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+236:21: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+236:21: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+238:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+238:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+239:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+239:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+241:21: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+241:21: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+242:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+242:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\ConvE.py'
+ outputting to './core\\ConvE.py'
+--------------------------------------------------------------------------------
+
+62:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+63:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+88:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+88:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+89:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+89:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+90:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+91:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+91:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+92:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+93:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+93:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+94:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+94:21: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+95:49: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+136:25: INFO: Added keywords to args of function 'tf.transpose'
+147:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+147:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+148:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+148:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+149:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+149:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+166:25: INFO: Added keywords to args of function 'tf.reduce_mean'
+167:25: INFO: Added keywords to args of function 'tf.reduce_mean'
+182:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+183:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+183:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+184:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+184:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+213:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+213:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+214:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+214:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+215:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+215:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\ConvKB.py'
+ outputting to './core\\ConvKB.py'
+--------------------------------------------------------------------------------
+
+63:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+71:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+89:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+89:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+90:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+90:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+91:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+92:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+92:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+93:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+94:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+94:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+95:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+95:21: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+96:49: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+132:25: INFO: Added keywords to args of function 'tf.transpose'
+144:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+144:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+145:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+145:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+146:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+146:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+162:25: INFO: Added keywords to args of function 'tf.reduce_mean'
+163:25: INFO: Added keywords to args of function 'tf.reduce_mean'
+178:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+178:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+179:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+179:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+180:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+180:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+210:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+210:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+211:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+211:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+212:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+212:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\DistMult.py'
+ outputting to './core\\DistMult.py'
+--------------------------------------------------------------------------------
+
+63:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+71:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+83:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+83:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+84:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+84:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+85:56: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+86:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+86:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+87:56: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+95:46: INFO: Added keywords to args of function 'tf.transpose'
+96:46: INFO: Added keywords to args of function 'tf.transpose'
+104:21: INFO: Added keywords to args of function 'tf.reduce_mean'
+105:21: INFO: Added keywords to args of function 'tf.reduce_mean'
+117:46: INFO: Added keywords to args of function 'tf.transpose'
+120:46: INFO: Added keywords to args of function 'tf.transpose'
+142:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+142:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+143:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+143:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+144:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+144:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\HoLE.py'
+ outputting to './core\\HoLE.py'
+--------------------------------------------------------------------------------
+
+56:15: INFO: Renamed 'tf.real' to 'tf.math.real'
+56:23: INFO: Renamed 'tf.ifft' to 'tf.signal.ifft'
+56:31: INFO: Renamed 'tf.conj' to 'tf.math.conj'
+56:39: INFO: Renamed 'tf.fft' to 'tf.signal.fft'
+56:52: INFO: Renamed 'tf.fft' to 'tf.signal.fft'
+73:27: INFO: Added keywords to args of function 'tf.reduce_sum'
+89:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+90:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+91:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+92:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+93:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+94:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+96:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+97:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+98:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+116:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+116:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+117:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+117:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+118:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+120:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+120:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+121:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+133:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+172:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+172:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+173:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+173:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+174:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+174:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\KG2E.py'
+ outputting to './core\\KG2E.py'
+--------------------------------------------------------------------------------
+
+71:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+72:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+73:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+74:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+75:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+76:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+77:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+78:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+79:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+100:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+100:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+102:37: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+102:37: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+103:65: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+104:37: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+104:37: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+105:65: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+108:40: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+108:40: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+109:68: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+110:40: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+110:40: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+111:68: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+140:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+161:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+162:18: INFO: Added keywords to args of function 'tf.reduce_sum'
+163:18: INFO: Added keywords to args of function 'tf.reduce_sum'
+163:32: INFO: Renamed 'tf.log' to 'tf.math.log'
+163:60: INFO: Renamed 'tf.log' to 'tf.math.log'
+184:18: INFO: Added keywords to args of function 'tf.reduce_sum'
+185:18: INFO: Added keywords to args of function 'tf.reduce_sum'
+185:32: INFO: Renamed 'tf.log' to 'tf.math.log'
+245:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+245:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+246:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+246:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+247:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+247:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+267:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+267:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+268:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+268:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+269:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+269:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+271:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+271:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+272:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+272:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+273:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+273:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\KGMeta.py'
+ outputting to './core\\KGMeta.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\NTN.py'
+ outputting to './core\\NTN.py'
+--------------------------------------------------------------------------------
+
+64:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+71:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+72:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+73:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+96:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+96:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+97:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+97:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+98:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+99:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+99:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+100:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+102:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+102:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+103:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+103:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+104:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+105:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+105:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+106:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+107:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+107:22: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+108:50: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+109:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+109:22: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+110:50: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+123:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+124:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+126:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+147:59: INFO: Added keywords to args of function 'tf.shape'
+171:16: INFO: Added keywords to args of function 'tf.cond'
+171:24: INFO: Added keywords to args of function 'tf.shape'
+171:41: INFO: Added keywords to args of function 'tf.shape'
+174:15: INFO: Added keywords to args of function 'tf.cond'
+174:23: INFO: Added keywords to args of function 'tf.shape'
+175:15: INFO: Added keywords to args of function 'tf.cond'
+175:23: INFO: Added keywords to args of function 'tf.shape'
+189:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+191:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+210:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+210:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+211:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+211:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+212:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+212:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\ProjE_pointwise.py'
+ outputting to './core\\ProjE_pointwise.py'
+--------------------------------------------------------------------------------
+
+62:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+63:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+86:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+86:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+88:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+88:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+89:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+91:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+91:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+92:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+94:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+94:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+95:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+96:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+96:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+97:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+98:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+98:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+99:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+101:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+101:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+102:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+103:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+103:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+104:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+105:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+105:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+106:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+116:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+116:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+117:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+117:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+119:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+119:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+120:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+120:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+122:29: INFO: Changing keep_prob arg of tf.nn.dropout to rate, and recomputing value.
+
+124:26: INFO: Added keywords to args of function 'tf.reduce_sum'
+124:41: INFO: Renamed 'tf.log' to 'tf.math.log'
+125:27: INFO: Added keywords to args of function 'tf.reduce_sum'
+126:13: INFO: Renamed 'tf.log' to 'tf.math.log'
+130:29: INFO: Changing keep_prob arg of tf.nn.dropout to rate, and recomputing value.
+
+132:26: INFO: Added keywords to args of function 'tf.reduce_sum'
+132:41: INFO: Renamed 'tf.log' to 'tf.math.log'
+133:27: INFO: Added keywords to args of function 'tf.reduce_sum'
+134:13: INFO: Renamed 'tf.log' to 'tf.math.log'
+138:27: INFO: Added keywords to args of function 'tf.reduce_sum'
+138:80: INFO: Added keywords to args of function 'tf.reduce_sum'
+139:30: INFO: Added keywords to args of function 'tf.reduce_sum'
+139:75: INFO: Added keywords to args of function 'tf.reduce_sum'
+167:39: INFO: Added keywords to args of function 'tf.transpose'
+180:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+180:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+181:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+181:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+182:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+203:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+203:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+204:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+204:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+205:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+205:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\Rescal.py'
+ outputting to './core\\Rescal.py'
+--------------------------------------------------------------------------------
+
+63:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+63:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+64:25: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:25: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:25: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:25: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:25: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:25: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+71:32: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+72:32: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+73:32: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+90:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+90:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+92:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+92:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+94:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+97:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+97:32: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+99:60: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+117:15: INFO: Added keywords to args of function 'tf.reduce_sum'
+123:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+123:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+127:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+127:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+128:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+128:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+129:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+129:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+130:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+130:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+131:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+131:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+132:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+132:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+133:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+133:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+135:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+135:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+146:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+180:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+180:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+181:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+181:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+182:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\RotatE.py'
+ outputting to './core\\RotatE.py'
+--------------------------------------------------------------------------------
+
+59:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+60:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+61:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+62:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+63:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+85:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+85:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+86:39: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+86:39: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+87:67: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+88:39: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+88:39: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+89:67: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+90:39: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+90:39: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+91:67: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+111:15: INFO: Added keywords to args of function 'tf.reduce_sum'
+131:18: INFO: Added keywords to args of function 'tf.cond'
+131:26: INFO: Added keywords to args of function 'tf.shape'
+131:44: INFO: Added keywords to args of function 'tf.shape'
+135:18: INFO: Added keywords to args of function 'tf.cond'
+135:26: INFO: Added keywords to args of function 'tf.shape'
+135:44: INFO: Added keywords to args of function 'tf.shape'
+139:15: INFO: Added keywords to args of function 'tf.reduce_sum'
+152:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+188:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+188:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+189:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+189:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+190:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+190:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+191:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+191:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+192:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+192:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\SLM.py'
+ outputting to './core\\SLM.py'
+--------------------------------------------------------------------------------
+
+57:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+58:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+59:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+60:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+61:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+62:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+87:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+87:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+88:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+88:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+89:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+90:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+90:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+91:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+93:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+93:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+94:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+94:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+95:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+96:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+96:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+97:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+109:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+110:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+112:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+142:17: INFO: Added keywords to args of function 'tf.cond'
+142:25: INFO: Added keywords to args of function 'tf.shape'
+142:45: INFO: Added keywords to args of function 'tf.shape'
+156:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+157:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+175:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+175:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+176:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+176:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+177:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+177:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\SME.py'
+ outputting to './core\\SME.py'
+--------------------------------------------------------------------------------
+
+67:19: INFO: Added keywords to args of function 'tf.cond'
+67:27: INFO: Added keywords to args of function 'tf.shape'
+67:44: INFO: Added keywords to args of function 'tf.shape'
+68:50: INFO: Added keywords to args of function 'tf.transpose'
+68:83: INFO: Added keywords to args of function 'tf.transpose'
+69:35: INFO: Added keywords to args of function 'tf.transpose'
+69:68: INFO: Added keywords to args of function 'tf.transpose'
+70:31: INFO: Added keywords to args of function 'tf.transpose'
+70:64: INFO: Added keywords to args of function 'tf.transpose'
+72:19: INFO: Added keywords to args of function 'tf.transpose'
+73:48: INFO: Added keywords to args of function 'tf.transpose'
+73:86: INFO: Added keywords to args of function 'tf.transpose'
+87:19: INFO: Added keywords to args of function 'tf.cond'
+87:27: INFO: Added keywords to args of function 'tf.shape'
+87:44: INFO: Added keywords to args of function 'tf.shape'
+88:50: INFO: Added keywords to args of function 'tf.transpose'
+88:83: INFO: Added keywords to args of function 'tf.transpose'
+89:35: INFO: Added keywords to args of function 'tf.transpose'
+89:68: INFO: Added keywords to args of function 'tf.transpose'
+90:31: INFO: Added keywords to args of function 'tf.transpose'
+90:64: INFO: Added keywords to args of function 'tf.transpose'
+92:19: INFO: Added keywords to args of function 'tf.transpose'
+93:48: INFO: Added keywords to args of function 'tf.transpose'
+93:86: INFO: Added keywords to args of function 'tf.transpose'
+107:19: INFO: Added keywords to args of function 'tf.cond'
+107:27: INFO: Added keywords to args of function 'tf.shape'
+107:44: INFO: Added keywords to args of function 'tf.shape'
+108:50: INFO: Added keywords to args of function 'tf.transpose'
+108:83: INFO: Added keywords to args of function 'tf.transpose'
+109:35: INFO: Added keywords to args of function 'tf.transpose'
+109:68: INFO: Added keywords to args of function 'tf.transpose'
+110:19: INFO: Added keywords to args of function 'tf.transpose'
+110:52: INFO: Added keywords to args of function 'tf.transpose'
+112:19: INFO: Added keywords to args of function 'tf.transpose'
+112:52: INFO: Added keywords to args of function 'tf.transpose'
+112:91: INFO: Added keywords to args of function 'tf.transpose'
+126:19: INFO: Added keywords to args of function 'tf.cond'
+126:27: INFO: Added keywords to args of function 'tf.shape'
+126:44: INFO: Added keywords to args of function 'tf.shape'
+127:50: INFO: Added keywords to args of function 'tf.transpose'
+127:83: INFO: Added keywords to args of function 'tf.transpose'
+128:35: INFO: Added keywords to args of function 'tf.transpose'
+128:68: INFO: Added keywords to args of function 'tf.transpose'
+129:19: INFO: Added keywords to args of function 'tf.transpose'
+129:52: INFO: Added keywords to args of function 'tf.transpose'
+131:19: INFO: Added keywords to args of function 'tf.transpose'
+131:52: INFO: Added keywords to args of function 'tf.transpose'
+131:91: INFO: Added keywords to args of function 'tf.transpose'
+149:25: INFO: Added keywords to args of function 'tf.cond'
+149:33: INFO: Added keywords to args of function 'tf.shape'
+149:53: INFO: Added keywords to args of function 'tf.shape'
+150:41: INFO: Added keywords to args of function 'tf.reduce_sum'
+151:41: INFO: Added keywords to args of function 'tf.reduce_sum'
+154:23: INFO: Added keywords to args of function 'tf.reduce_sum'
+160:25: INFO: Added keywords to args of function 'tf.cond'
+160:33: INFO: Added keywords to args of function 'tf.shape'
+160:53: INFO: Added keywords to args of function 'tf.shape'
+161:41: INFO: Added keywords to args of function 'tf.reduce_sum'
+162:41: INFO: Added keywords to args of function 'tf.reduce_sum'
+165:23: INFO: Added keywords to args of function 'tf.reduce_sum'
+181:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+182:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+183:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+184:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+185:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+186:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+187:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+188:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+189:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+206:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+206:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+207:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+207:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+208:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+209:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+209:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+210:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+212:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+212:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+213:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+213:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+214:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+215:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+215:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+216:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+217:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+217:22: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+218:50: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+219:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+219:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+220:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+221:23: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+221:23: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+222:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+223:22: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+223:22: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+224:50: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+239:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+271:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+271:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+272:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+272:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+273:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+273:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\TransD.py'
+ outputting to './core\\TransD.py'
+--------------------------------------------------------------------------------
+
+62:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+63:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+92:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+92:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+93:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+93:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+95:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+96:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+96:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+98:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+99:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+99:32: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+101:60: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+102:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+102:32: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+104:60: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+116:47: INFO: Added keywords to args of function 'tf.reduce_sum'
+118:47: INFO: Added keywords to args of function 'tf.reduce_sum'
+120:47: INFO: Added keywords to args of function 'tf.reduce_sum'
+122:47: INFO: Added keywords to args of function 'tf.reduce_sum'
+127:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+139:49: INFO: Added keywords to args of function 'tf.reduce_sum'
+141:49: INFO: Added keywords to args of function 'tf.reduce_sum'
+147:34: INFO: Added keywords to args of function 'tf.reduce_sum'
+174:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+176:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+189:14: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+189:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+190:14: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+190:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+191:14: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+191:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+206:14: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+206:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+207:14: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+207:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+208:14: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+208:14: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\TransE.py'
+ outputting to './core\\TransE.py'
+--------------------------------------------------------------------------------
+
+65:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+71:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+72:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+73:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+90:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+90:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+91:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+91:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+92:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+94:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+94:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+95:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+107:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+144:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+144:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+145:18: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+145:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+166:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+166:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+167:18: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+167:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+187:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+189:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+205:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+205:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+206:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+206:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+207:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+207:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\TransG.py'
+ outputting to './core\\TransG.py'
+--------------------------------------------------------------------------------
+
+64:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+72:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+73:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+74:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+96:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+96:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+98:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+98:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+99:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+102:38: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+102:38: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+103:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+105:32: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+105:32: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+106:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+108:36: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+108:36: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+109:58: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+121:18: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+121:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+122:18: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+122:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+123:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+123:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+124:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+124:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+130:44: INFO: Added keywords to args of function 'tf.reduce_sum'
+131:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+133:18: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+133:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+134:18: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+134:18: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+135:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+135:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+136:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+136:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+142:44: INFO: Added keywords to args of function 'tf.reduce_sum'
+143:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+146:28: INFO: Added keywords to args of function 'tf.reduce_sum'
+146:68: INFO: Added keywords to args of function 'tf.reduce_sum'
+147:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+278:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+278:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+279:19: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+279:19: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+281:20: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+281:20: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+282:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+282:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+297:45: INFO: Added keywords to args of function 'tf.reduce_sum'
+298:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+301:45: INFO: Added keywords to args of function 'tf.reduce_sum'
+302:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+323:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+323:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+324:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+324:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+325:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+325:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\TransH.py'
+ outputting to './core\\TransH.py'
+--------------------------------------------------------------------------------
+
+64:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+71:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+72:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+73:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+91:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+91:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+92:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+92:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+93:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+95:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+95:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+96:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+98:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+98:21: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+99:49: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+111:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+119:16: INFO: Added keywords to args of function 'tf.reduce_sum'
+119:41: INFO: Added keywords to args of function 'tf.reduce_sum'
+120:16: INFO: Added keywords to args of function 'tf.reduce_sum'
+120:41: INFO: Renamed 'tf.div' to 'tf.compat.v1.div'
+120:48: INFO: Added keywords to args of function 'tf.reduce_sum'
+121:48: INFO: Added keywords to args of function 'tf.reduce_sum'
+152:34: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+152:34: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+156:24: INFO: Added keywords to args of function 'tf.reduce_sum'
+171:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+173:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+186:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+186:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+187:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+187:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+188:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+188:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\TransM.py'
+ outputting to './core\\TransM.py'
+--------------------------------------------------------------------------------
+
+59:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+60:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+61:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+62:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+63:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+86:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+86:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+87:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+87:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+88:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+90:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+90:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+91:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+112:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+112:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+113:22: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+113:22: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+118:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+150:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+152:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+168:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+168:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+169:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+169:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+170:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+170:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\TransR.py'
+ outputting to './core\\TransR.py'
+--------------------------------------------------------------------------------
+
+65:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+67:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:21: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+72:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+73:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+74:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+93:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+93:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+95:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+95:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+97:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+98:34: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+98:34: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+100:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+122:20: INFO: Added keywords to args of function 'tf.reduce_sum'
+136:68: INFO: Added keywords to args of function 'tf.transpose'
+179:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+181:19: INFO: Added keywords to args of function 'tf.reduce_sum'
+187:26: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+187:26: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+203:25: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+203:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+204:25: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+204:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+205:25: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+205:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+206:28: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+206:28: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\TuckER.py'
+ outputting to './core\\TuckER.py'
+--------------------------------------------------------------------------------
+
+62:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+63:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+64:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+65:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+66:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+68:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+91:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+91:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+92:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+92:21: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+93:49: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+94:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+94:21: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+95:49: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+96:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+96:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+97:21: WARNING: tf.get_variable requires manual check. tf.get_variable returns ResourceVariables by default in 2.0, which have well-defined semantics and are stricter about shapes. You can disable this behavior by passing use_resource=False, or by calling tf.compat.v1.disable_resource_variables().
+97:21: INFO: Renamed 'tf.get_variable' to 'tf.compat.v1.get_variable'
+98:49: INFO: tf.initializers.random_uniform requires manual check. Initializers no longer have the dtype argument in the constructor or partition_info argument in the __call__ method.
+The calls have been converted to compat.v1 for safety (even though they may already have been correct).
+98:49: INFO: Renamed 'tf.initializers.random_uniform' to 'tf.compat.v1.initializers.random_uniform'
+123:13: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+123:13: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+124:25: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+124:25: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+138:25: INFO: Added keywords to args of function 'tf.transpose'
+149:21: INFO: Added keywords to args of function 'tf.reduce_mean'
+150:21: INFO: Added keywords to args of function 'tf.reduce_mean'
+181:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+181:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+182:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+182:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+183:16: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+183:16: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './core\\__init__.py'
+ outputting to './core\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './test\\test_generator.py'
+ outputting to './test\\test_generator.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './test\\test_inference.py'
+ outputting to './test\\test_inference.py'
+--------------------------------------------------------------------------------
+
+18:4: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './test\\test_kg.py'
+ outputting to './test\\test_kg.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './test\\test_KGPipeline.py'
+ outputting to './test\\test_KGPipeline.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './test\\test_model.py'
+ outputting to './test\\test_model.py'
+--------------------------------------------------------------------------------
+
+18:4: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+50:4: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './test\\test_tune_model.py'
+ outputting to './test\\test_tune_model.py'
+--------------------------------------------------------------------------------
+
+19:4: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './test\\__init__.py'
+ outputting to './test\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\bayesian_optimizer.py'
+ outputting to './utils\\bayesian_optimizer.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\evaluation.py'
+ outputting to './utils\\evaluation.py'
+--------------------------------------------------------------------------------
+
+328:27: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+329:29: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\generator.py'
+ outputting to './utils\\generator.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\kgcontroller.py'
+ outputting to './utils\\kgcontroller.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\KGPipeline.py'
+ outputting to './utils\\KGPipeline.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\trainer.py'
+ outputting to './utils\\trainer.py'
+--------------------------------------------------------------------------------
+
+61:8: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+99:24: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+101:24: INFO: Renamed 'tf.InteractiveSession' to 'tf.compat.v1.InteractiveSession'
+105:24: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+107:24: INFO: Renamed 'tf.train.RMSPropOptimizer' to 'tf.compat.v1.train.RMSPropOptimizer'
+109:24: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+111:24: INFO: Renamed 'tf.train.AdagradOptimizer' to 'tf.compat.v1.train.AdagradOptimizer'
+117:22: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+118:22: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+166:8: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+188:8: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+271:16: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+272:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+278:20: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+329:34: INFO: Added keywords to args of function 'tf.nn.embedding_lookup'
+329:34: WARNING: tf.nn.embedding_lookup requires manual check. `partition_strategy` has been removed from tf.nn.embedding_lookup.  The 'div' strategy will be used by default.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\visualization.py'
+ outputting to './utils\\visualization.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './utils\\__init__.py'
+ outputting to './utils\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
