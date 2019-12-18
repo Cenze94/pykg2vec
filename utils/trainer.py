@@ -43,6 +43,8 @@ class Trainer(TrainerMeta):
         self.trainon = trainon
         self.teston = teston
         tf.compat.v1.disable_eager_execution()
+        if not model.config.use_gpu:
+            os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
     def enter_interactive_mode(self):
         self.build_model()

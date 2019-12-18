@@ -326,7 +326,7 @@ class BasicConfig:
             self.log_device_placement = False
             self.gpu_fraction = args.gpu_frac
             self.gpu_allow_growth = True
-            self.use_gpu = True
+            self.use_gpu = args.use_gpu
             self.loadFromData = args.load_from_data
             self.save_model = args.save_model
             self.disp_summary = True
